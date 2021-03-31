@@ -3,5 +3,16 @@ node_modules
 .DS_Store
 yarn.lock
 
-# 
+# terraform
+.terraform/
+terraform*
+*terraform*
+*.log
+*.tf
+
+# aws
+.aws/
+
+# config file
 .env
+*.sh
